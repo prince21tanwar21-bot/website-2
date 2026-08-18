@@ -1,0 +1,109 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Present</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="favicon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    </head>
+    <body>
+        <audio  autoplay loop>
+            <source src="by.mp3" type="audio/mpeg" />
+        </audio>
+        
+        <div class="wrap">
+            <header>
+
+                <div class="header-left" title="fav. anime IYKYK">
+                    <a href="anime.html" >
+                        <img src="logo.svg" alt="logo" height="150" width="200">
+
+                    </a>
+                    <div class="divider hide-mobile"></div>
+                    <a href="index.html" class="home hide-mobile">HOME</a>
+                </div>
+
+
+                
+
+                <nav>
+                    <a href="#" class="menu-open hide-desktop">
+                        <img src="menu-menu-button-svgrepo-com.svg" alt="open menu"
+                        height="20">
+                    </a>
+                    <ul>
+                        <li class="hide-desktop">
+                            <a href="#" class="menu-close">
+                                <img src="cross-symbol-icon.svg" alt="close menu"
+                                height="20">
+                            </a>
+                        </li>
+                        <li><a href="wishes.html">Wishes From Prince</a></li>
+                        <li><a href="memories.html">Memories</a></li>
+                        <li><a href="facts.html">Facts & Wishes</a></li>
+                        
+                    </ul>
+                
+                </nav>
+                <div class="circle">
+                    <div class="circle1"></div>
+                    <div class="circle2"></div>
+                    <div class="circle3"></div>
+                    <div class="circle4"></div>
+                    <div class="circle5"></div>
+                    <div class="circle6"></div>
+                    <div class="circle7"></div>
+                    <div class="circle8"></div>
+                    <div class="circle9"></div>
+                    <div class="circle10"></div>
+                    <div class="circle11"></div>
+                    <div class="circle12"></div>
+                </div>
+            </header>
+            <div class="link">
+                <a href="cake.html" target="_blank">
+                    <div class="animation">
+                        <h1 class="animate__animated animate__zoomInDown">HAPPY BIRTHDAY!!!</h1>                   
+                    </div>
+                    <div class="animation2">
+                        <h1 class="animate__animated animate__zoomInDown">RUDRAM</h1> 
+                    </div>
+                </a>
+            </div>
+            <div class="birthday-gift">
+                <div class="gift">
+                    <input id='click' type='checkbox'>
+                    <label class='click' for='click'></label>
+                    <div class="wishes">Happy Birthday!</div>
+                      <div class="sparkles">
+                     <div class="spark1"></div>
+                     <div class="spark2"></div>
+                     <div class="spark3"></div>
+                     <div class="spark4"></div>
+                     <div class="spark5"></div>
+                     <div class="spark6"></div>
+                    </div>
+                </div>
+            </div>
+
+           
+        </div>
+
+        <script>
+            const menu = document.querySelector('nav ul')
+            const menuBtn = document.querySelector('.menu-open')
+            const closeBtn = document.querySelector('.menu-close')
+
+            menuBtn.addEventListener('click', () =>{
+                menu.classList.add('open')
+            })
+
+            closeBtn.addEventListener('click', () =>{
+                menu.classList.remove('open')
+            })
+        </script>
+    </body>
+</html>
